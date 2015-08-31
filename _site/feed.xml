@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Your Society</title>
+    <description>Lets build it together</description>
+    <link>http://designyoursociety.com/</link>
+    <atom:link href="http://designyoursociety.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Second Post</title>
+        <description>&lt;p&gt;For inlining images:&lt;/p&gt;
+
+&lt;p&gt;Here’s our logo (hover to see the title text):&lt;/p&gt;
+
+&lt;p&gt;Inline-style: 
+&lt;img src=&quot;/favicon-192x192.png&quot; alt=&quot;alt text&quot; title=&quot;design your society&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reference-style: 
+&lt;img src=&quot;/favicon-192x192.png&quot; alt=&quot;alt text&quot; title=&quot;dys&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For inlining videos in a post:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=AL0i4ONCUmQ&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/AL0i4ONCUmQ/0.jpg&quot; alt=&quot;Baya demo&quot; width=&quot;460&quot; height=&quot;380&quot; /&gt;&lt;/a&gt; and here it is shown how baya works in practice.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Aug 2015 18:21:29 +0200</pubDate>
+        <link>http://designyoursociety.com/socialinnovation/dys/india/collaborativesociety/2015/08/31/dys_secondpost/</link>
+        <guid isPermaLink="true">http://designyoursociety.com/socialinnovation/dys/india/collaborativesociety/2015/08/31/dys_secondpost/</guid>
+      </item>
+    
+      <item>
+        <title>First Post</title>
+        <description>&lt;p&gt;This is an empty post to illustrate how to write our blogs.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Aug 2015 13:21:29 +0200</pubDate>
+        <link>http://designyoursociety.com/socialinnovation/dys/india/collaborativesociety/2015/08/31/dys_firstpost/</link>
+        <guid isPermaLink="true">http://designyoursociety.com/socialinnovation/dys/india/collaborativesociety/2015/08/31/dys_firstpost/</guid>
+      </item>
+    
+  </channel>
+</rss>
