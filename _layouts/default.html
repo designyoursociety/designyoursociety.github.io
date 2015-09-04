@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body class="site{% if site.animated %} animated fade-in-down{% endif %}">
-  <div class="site-wrap">
-    {% include header.html %}
 
-    <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
+  {% include head.html %}
+
+  <body class="site{% if site.animated %} animated fade-in-down{% endif %}">
+
+    <!-- Start Layout -->
+    {% if site.header_type == 'drawer' %}
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+      {% include header_fixed.html %}
+    {% else %}
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include header.html %}
+    {% endif %}
+
+      <main class="mdl-layout__content">
         {{ content }}
-      </div>
-    </div>
-  </div>
+        {% include footer.html %}
+      </main>
 
-  {% include footer.html %}
-</body>
+    </div>
+    <!-- /End Layout-->
+
+    <!-- Material Design Lite js Library -->
+    <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    {% if site.pagination_type == 'ops' %}
+    <script rel="javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+  </body>
+
 </html>

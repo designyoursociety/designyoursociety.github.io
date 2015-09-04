@@ -1,160 +1,326 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Design Your Society</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lets build it together">
-    <meta name="author" content="Design your society">
-    
-    <link rel="canonical" href="http://designyoursociety.com/">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Design Your Society" href="/feed.xml" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?201508311735" type="text/css">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
-    
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    
+  <title>Design Your Society</title>
+  <meta name="description" content="Lets build it together">
 
-    <!-- Verifications -->
-    
+  <link rel="canonical" href="http://designyoursociety.com/">
+  <link rel="alternate" type="application/rss+xml" title="Design Your Society" href="http://designyoursociety.com/feed.xml" />
 
-    <!-- Open Graph -->
-    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Design Your Society">
-    <meta property="og:description" content="Lets build it together">
-    <meta property="og:url" content="http://designyoursociety.com/">
-    <meta property="og:site_name" content="Design Your Society">
+  <!-- Material Design Lite css Library -->
+  <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+  
+  <!-- Material Design Fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
-    
-    <meta name="twitter:title" content="Design Your Society" />
-    <meta name="twitter:description" content="Lets build it together" />
-    <meta name="twitter:url" content="http://designyoursociety.com/" />
-
-    <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-
-    
+  <!-- Custom theme css -->
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
-<body class="site animated fade-in-down">
-  <div class="site-wrap">
-    <header class="site-header px2 px-responsive">
-  <div class="mt2 wrap">
-    <div class="measure">
-      <a href="http://designyoursociety.com" class="site-title">Design Your Society</a>
-      <nav class="site-nav">
-        <a href="/about/">About</a>
-<a href="/contact/">Contact</a>
 
+  <body class="site animated fade-in-down">
+
+    <!-- Start Layout -->
+    
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header px2 px-responsive">
+
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Design Your Society</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+      
+        
+      
+        
+        <a class="mdl-navigation__link" href="/about/">About</a>
+        
+      
+        
+      
+        
+      
+        
+      
       </nav>
-      <div class="clearfix"></div>
-      
-        <div class="social-icons">
-  <div class="left">
-    
-    
-    
-    <a class="fa fa-rss" href="/feed.xml"></a>
-    
-    
-    
-      <a class="fa fa-envelope" href="mailto:designyoursociety@gmail.com"></a>
-    
-    
-    
-    
-  </div>
-  <div class="right">
-    
-    
-    
-  </div>
-</div>
-<div class="clearfix"></div>
 
-      
+      <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" id="search-field" />
+        </div>
+      </div>
+
+      <button class="mdl-button mdl-js-button mdl-button--icon" id="menu-lower-left">
+        <i class="material-icons">more_vert</i>
+      </button>
+
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu-lower-left">
+        
+        <li><a href="www.myawesomelink.com" class="mdl-menu__item">Cool Option 1</a></li>
+        
+        <li><a href="www.myawesomelink.com" class="mdl-menu__item">Cool Option 2</a></li>
+        
+        <li><a href="www.myawesomelink.com" class="mdl-menu__item">Cool Option 3</a></li>
+        
+      </ul>
     </div>
-  </div>
-</header>
+  </header>
 
-
-    <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
-        <div class="home">
-
-  <div class="posts">
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Menu</span>
+    <nav class="mdl-navigation">
     
-      <div class="post py3">
-        <p class="post-meta">Aug 31, 2015</p>
-        <a href="/socialinnovation/dys/india/collaborativesociety/2015/08/31/dys_secondpost/" class="post-link"><h3 class="h1 post-title">Second Post</h3></a>
-        <p class="post-summary">
-          
-            This is an empty post to illustrate the how to use images and videos in a post.
-          
-        </p>
+      
+    
+      
+      <a class="mdl-navigation__link" href="/about/">About</a>
+      
+    
+      
+    
+      
+    
+      
+    
+    </nav>
+
+  </div>
+
+
+    
+
+      <main class="mdl-layout__content">
+        <div class="page-content">
+  <div class="mdl-grid">
+  
+
+    
+    
+
+    <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+
+      <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone"  style="background: url('img/welcome_card.jpg') center/cover;" ></header>
+
+      <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+        <div class="mdl-card__supporting-text">
+          <h4>Design your society</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
+
+
+        </div>
+        <div class="mdl-card__actions">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/dys/2015/10/11/DYS.html">Read More</a>
+        </div>
       </div>
+
+      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn-high">
+        <i class="material-icons">more_vert</i>
+      </button>
+      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn-high">
+        <li><a href="https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href=/dys/2015/10/11/DYS.html&redirect_uri=" class="mdl-menu__item">Facebook</a></li>
+        <li><a href="https://twitter.com/share?url=/dys/2015/10/11/DYS.html&text=Design your society&via=" class="mdl-menu__item">Twitter</a></li>
+        <li><a href="https://plus.google.com/share?url=/dys/2015/10/11/DYS.html" class="mdl-menu__item">Google+</a></li>
+      </ul>
+
+    </div>
+
     
-      <div class="post py3">
-        <p class="post-meta">Aug 31, 2015</p>
-        <a href="/socialinnovation/dys/india/collaborativesociety/2015/08/31/dys_firstpost/" class="post-link"><h3 class="h1 post-title">First Post</h3></a>
-        <p class="post-summary">
-          
-            This is an empty post to illustrate the how to use.
-          
-        </p>
+    
+    
+
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+      <div class="mdl-card__title" >
+        <h2 class="mdl-card__title-text">DYS again with Material Design Lite</h2>
       </div>
-    
-  </div>
+      <div class="mdl-card__supporting-text">
+        <p>But it’s not who you are underneath… it’s what you do that defines you. Death does not wait for you to be ready! Death is not considerate of fair! And make no mistake, here you face death. Tiger. Jujitsu. Panther. You’re skilled. But this is not a dance. And you are afraid.</p>
 
-  <div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <span class="pagination-item disabled">Older</span>
-    
-  </div>
-</div>
 
-</div>
-
+      </div>
+      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='/material/2015/09/11/material-design-lite.html'">
+        <i class="material-icons">keyboard_arrow_right</i>
+      </button>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/material/2015/09/11/material-design-lite.html">
+          Sep 11, 2015
+        </a>
+      </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-/material/2015/09/11/material-design-lite">
+          <i class="material-icons">share</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-/material/2015/09/11/material-design-lite">
+          <li><a href="https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href=/material/2015/09/11/material-design-lite.html&redirect_uri=" class="mdl-menu__item">Facebook</a></li>
+          <li><a href="https://twitter.com/share?url=/material/2015/09/11/material-design-lite.html&text=DYS again with Material Design Lite&via=" class="mdl-menu__item">Twitter</a></li>
+          <li><a href="https://plus.google.com/share?url=/material/2015/09/11/material-design-lite.html" class="mdl-menu__item">Google+</a></li>
+        </ul>
       </div>
     </div>
+    
+    
+    
+
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+      <div class="mdl-card__title"  style="background: url('img/welcome_card.jpg') center/cover;" >
+        <h2 class="mdl-card__title-text">Jekyll Material Design Lite</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <p>For inlining images:Here’s our logo (hover to see the title text):Inline-style:
+Bacon ipsum dolor amet esse et laborum, ground round hamburger venison rump meatball frankfurter cow capicola ut. Boudin dolore capicola, consequat ut filet mignon dolor duis incididunt.</p>
+
+
+      </div>
+      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='/mdl/2015/08/23/dys_secondpost.html'">
+        <i class="material-icons">keyboard_arrow_right</i>
+      </button>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/mdl/2015/08/23/dys_secondpost.html">
+          Aug 23, 2015
+        </a>
+      </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-/mdl/2015/08/23/dys_secondpost">
+          <i class="material-icons">share</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-/mdl/2015/08/23/dys_secondpost">
+          <li><a href="https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href=/mdl/2015/08/23/dys_secondpost.html&redirect_uri=" class="mdl-menu__item">Facebook</a></li>
+          <li><a href="https://twitter.com/share?url=/mdl/2015/08/23/dys_secondpost.html&text=Jekyll Material Design Lite&via=" class="mdl-menu__item">Twitter</a></li>
+          <li><a href="https://plus.google.com/share?url=/mdl/2015/08/23/dys_secondpost.html" class="mdl-menu__item">Google+</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    
+    
+
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+      <div class="mdl-card__title"  style="background: url('img/welcome_card.jpg') center/cover;" >
+        <h2 class="mdl-card__title-text">DYS with Material Design Lite</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <p>Bacon ipsum dolor amet esse et laborum, ground round hamburger venison rump meatball frankfurter cow capicola ut. Boudin dolore capicola, consequat ut filet mignon dolor duis incididunt. Frankfurter esse qui venison. Chuck adipisicing cillum excepteur laborum ex filet mignon landjaeger quis dolore kevin.</p>
+
+
+      </div>
+      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='/dys/2015/08/11/jekyll-mdl.html'">
+        <i class="material-icons">keyboard_arrow_right</i>
+      </button>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/dys/2015/08/11/jekyll-mdl.html">
+          Aug 11, 2015
+        </a>
+      </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-/dys/2015/08/11/jekyll-mdl">
+          <i class="material-icons">share</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-/dys/2015/08/11/jekyll-mdl">
+          <li><a href="https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href=/dys/2015/08/11/jekyll-mdl.html&redirect_uri=" class="mdl-menu__item">Facebook</a></li>
+          <li><a href="https://twitter.com/share?url=/dys/2015/08/11/jekyll-mdl.html&text=DYS with Material Design Lite&via=" class="mdl-menu__item">Twitter</a></li>
+          <li><a href="https://plus.google.com/share?url=/dys/2015/08/11/jekyll-mdl.html" class="mdl-menu__item">Google+</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    
+    
+
+    <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
+      <div class="mdl-card__title"  style="background: url('img/welcome_card.jpg') center/cover;" >
+        <h2 class="mdl-card__title-text">Welcome to Jekyll!</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+
+      </div>
+      <button class="post-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="location.href='/jekyll/2015/07/11/welcome-to-jekyll.html'">
+        <i class="material-icons">keyboard_arrow_right</i>
+      </button>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/jekyll/2015/07/11/welcome-to-jekyll.html">
+          Jul 11, 2015
+        </a>
+      </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="post-/jekyll/2015/07/11/welcome-to-jekyll">
+          <i class="material-icons">share</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="post-/jekyll/2015/07/11/welcome-to-jekyll">
+          <li><a href="https://www.facebook.com/dialog/share?app_id={app_id}&display=page&href=/jekyll/2015/07/11/welcome-to-jekyll.html&redirect_uri=" class="mdl-menu__item">Facebook</a></li>
+          <li><a href="https://twitter.com/share?url=/jekyll/2015/07/11/welcome-to-jekyll.html&text=Welcome to Jekyll!&via=" class="mdl-menu__item">Twitter</a></li>
+          <li><a href="https://plus.google.com/share?url=/jekyll/2015/07/11/welcome-to-jekyll.html" class="mdl-menu__item">Google+</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    
+
+  
+  </div>
+</div>
+
+        <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer--middle-section">
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">INFO</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li><a href="mailto:designyoursociety@gmail.com">designyoursociety@gmail.com</a></li>
+        <li><a href="/feed.xml">subscribe via RSS</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">SOCIAL</h1>
+      <ul class="mdl-mega-footer--link-list">
+        
+        
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">ABOUT</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li>Lets build it together</li>
+      </ul>
+    </div>
+
+
   </div>
 
-  <footer class="center">
-  <div class="measure">
-    <small>
-      designed with passion
-    </small>
+  <div class="mdl-mega-footer--bottom-section">
+    <div class="mdl-logo">Design Your Society</div>
+    <ul class="mdl-mega-footer--link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
   </div>
+
 </footer>
 
-</body>
+      </main>
+
+    </div>
+    <!-- /End Layout-->
+
+    <!-- Material Design Lite js Library -->
+    <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    
+  </body>
+
 </html>
